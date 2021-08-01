@@ -1,0 +1,27 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "good nodejs",
+  "scripts": {
+    "dev": "nodemon --exec babel-node scr/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohriman/we.git"
+  },
+  "author": "pig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ohriman/we/issues"
+  },
+  "homepage": "https://github.com/ohriman/we#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/node": "^7.14.7",
+    "@babel/preset-env": "^7.14.8",
+    "nodemon": "^2.0.12"
+  }
+}
